@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 		error_handling("connect() error");
 
 	//서버로 데이터 보냄
-	chat data[30] = "hihi";
+	char data[30] = "hihi";
 	write(sock, data, sizeof(data));
 
 	//서버
